@@ -1,7 +1,8 @@
 import { PureComponent } from 'react';
 import './calculator.css';
-
+// imported Purecomponent and style file for the Calculator class
 class Calculator extends PureComponent {
+  // render class
   render() {
     return (
       <>
@@ -34,4 +35,5 @@ class Calculator extends PureComponent {
   }
 }
 
+//  exporting class Calculator as default
 export default Calculator;
