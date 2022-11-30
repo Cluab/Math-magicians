@@ -2,28 +2,34 @@ import { PureComponent } from 'react';
 import './calculator.css';
 import calculate from '../../logic/calculate';
 // imported Purecomponent and style file for the Calculator class
+// imported calculate function to apply them in the component
 class Calculator extends PureComponent {
+  // added an empty object that will hold our information for the calculator
   obj = {}
 
+  // added a constructor for applying the sum on calculator screen.
   constructor(props) {
     super(props);
     this.state = {
 
-      sum: '5',
+      sum: '0',
 
     };
+    // bind the operate function with this constructor
     this.operate = this.operate.bind(this);
   }
 
+  // create a function that takes the button content and updating the empty object
    operate = (e) => {
      const equal = e.target.textContent;
      this.obj = calculate(this.obj, equal);
+     // update the sate of the props to the new object
      this.setState({
        sum: this.obj.next || this.obj.operation || this.obj.total || 0,
      });
-     // render class
    }
 
+   // render class
    render() {
      const { sum } = this.state;
      return (
