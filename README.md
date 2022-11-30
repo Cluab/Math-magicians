@@ -116,7 +116,7 @@ Clone this repository to your desired folder:
 
 1- cd my-folder.
 
-2- clone git@github.com:myaccount/my-project.git
+2- clone git@github.com:Cluab/math-magicians-v1.git
 
 
 ### Install
