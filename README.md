@@ -75,7 +75,6 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
 - **[1.Make simple calculations.]**
 - **[2.Read a random math-related quote.]**
@@ -87,7 +86,6 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
 
 - [loading...](https://yourdeployedapplicationlink.com)
 
