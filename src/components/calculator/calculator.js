@@ -51,5 +51,5 @@ const Calculator = () => {
   );
 };
 
-//  exporting class Calculator as default
+//  exporting Calculator function as default
 export default Calculator;
