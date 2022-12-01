@@ -1,27 +1,25 @@
 import { useState } from 'react';
 import './calculator.css';
 import calculate from '../../logic/calculate';
-// imported Purecomponent and style file for the Calculator class
+// imported useState and style file for the Calculator class
 // imported calculate function to apply them in the component
-let obj = {};
-// eslint-disable-next-line react/prop-types
-const Calculator = () => {
-  const [sum, setResult] = useState(0);
 
-  // added an empty object that will hold our information for the calculator
-  // added a constructor for applying the sum on calculator screen.
+// create an object that will store calculate function logic
+let obj = {};
+
+const Calculator = () => {
+// use useState to replace the constructor props in the class
+  const [sum, setResult] = useState(0);
 
   // create a function that takes the button content and updating the empty object
   const operate = (e) => {
     const equal = e.target.textContent;
     obj = calculate(obj, equal);
-    // update the sate of the props to the new object
-    // sum = obj.next || obj.operation || obj.total || 0;
+    // update the sem of the useState to the new object
     setResult(obj.next || obj.operation || obj.total || 0);
-    console.log(obj);
   };
 
-  // render class
+  // return function
 
   return (
     <>
