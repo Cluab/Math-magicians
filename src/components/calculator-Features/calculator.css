@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url('src/contexts/background2.webp');
+  background-image: url('/src/contexts/background2.webp');
   height: 100vh;
 }
 
