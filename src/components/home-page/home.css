@@ -1,0 +1,15 @@
+.homeContainer{
+    height: 50vh;
+    position: center;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.introduction {
+    font-size: 40px;
+    padding: 20px;
+    color: rgb(0, 0, 73);
+}

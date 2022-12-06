@@ -1,0 +1,33 @@
+.HeaderContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 120px;
+    max-height: 120px;
+ } 
+
+ .Title {
+   font-family: 'Open Sans', sans-serif;
+   padding: 50px;
+   padding-left: 3rem;
+    font-size: 40px;
+    color: rgb(43, 43, 90);
+ }
+
+ .Nav-container {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+    gap: 20px;
+    padding: 50px;
+    padding-right: 5rem;
+ }
+ a {
+   font-weight: 700;
+   color: rgb(46, 36, 100);
+ }
+ 
+ a:hover {
+   color: rgb(110, 38, 38);
+ }
