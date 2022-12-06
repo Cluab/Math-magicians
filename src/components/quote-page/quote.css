@@ -1,15 +1,14 @@
-.QuoteContainer{
-    height: 50vh;
-    position: center;
-    display: flex;
-    justify-items: center;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
+.QuoteContainer {
+  height: 50vh;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
 }
 
 .Quote {
-    font-size: 50px;
-    padding: 20px;
-    color: rgb(0, 0, 73);
+  font-size: 50px;
+  padding: 20px;
+  color: rgb(0, 0, 73);
 }

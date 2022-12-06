@@ -6,7 +6,7 @@ const CalculatorPage = () => (
   <>
     <div className="CalculatorContainer">
       <h2 className="CalculatorTitle">let`s do some Math</h2>
-      <div className="Calculator-container">
+      <div className="Calculator-box">
         <Calculator />
       </div>
     </div>
