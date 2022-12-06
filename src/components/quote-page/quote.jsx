@@ -1,6 +1,6 @@
 import React from 'react';
 import './quote.css';
-
+// adding the Quote page Component
 const QuotePage = () => (
   <>
     <div className="QuoteContainer">
@@ -12,6 +12,4 @@ const QuotePage = () => (
     </div>
   </>
 );
-
-// eslint-disable-next-line import/prefer-default-export
 export default QuotePage;

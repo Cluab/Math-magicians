@@ -2,10 +2,6 @@
   height: 60vh;
   display: flex;
   flex-direction: column;
-
-  /* justify-items: center;
-  justify-content: center;
-  align-items: center; */
   padding: 50px;
 }
 

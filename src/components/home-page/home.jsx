@@ -1,6 +1,6 @@
 import React from 'react';
 import './home.css';
-
+// adding the home page Component
 const HomePage = () => (
   <>
     <div className="homeContainer">
@@ -14,6 +14,4 @@ const HomePage = () => (
     </div>
   </>
 );
-
-// eslint-disable-next-line import/prefer-default-export
 export default HomePage;

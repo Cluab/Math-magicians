@@ -1,7 +1,7 @@
 import React from 'react';
 import Calculator from '../calculator-Features/calculator';
 import './calc-page.css';
-
+// adding the Calculator page component
 const CalculatorPage = () => (
   <>
     <div className="CalculatorContainer">
@@ -12,6 +12,4 @@ const CalculatorPage = () => (
     </div>
   </>
 );
-
-// eslint-disable-next-line import/prefer-default-export
 export default CalculatorPage;
