@@ -1,16 +1,12 @@
 import { PureComponent } from 'react';
-import Calculator from './components/calculator-Features/calculator';
-import { Header } from './components/header/Hearder';
+import CalculatorPage from './components/calculator-page/calc-page';
 // imported PureComponent and Calculator class for the app class
 class App extends PureComponent {
   // render the app class with the calculator component
   render() {
     return (
       <>
-        <Header />
-        <div>
-          <Calculator />
-        </div>
+        <CalculatorPage />
       </>
     );
   }
