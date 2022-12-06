@@ -4,12 +4,13 @@ import './home.css';
 const HomePage = () => (
   <>
     <div className="homeContainer">
-      <h2 className="introduction">
+      <h2>Welcome to our website</h2>
+      <h3 className="introduction">
         `Math magicians` is a website for all fans of mathematics.
         It is a Single Page App (SPA) that allows users to:
         1. Make simple calculations.
         2.Read a random math-related quote.
-      </h2>
+      </h3>
     </div>
   </>
 );
