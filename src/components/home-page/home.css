@@ -1,0 +1,23 @@
+.homeContainer {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.homeContainer h2 {
+  font-size: 40px;
+  padding: 20px;
+  color: rgb(0, 0, 73);
+  text-align: left;
+}
+
+.introduction {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  padding: 20px;
+  color: rgb(0, 0, 73);
+}

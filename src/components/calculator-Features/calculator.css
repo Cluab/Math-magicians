@@ -7,16 +7,17 @@
 }
 
 body {
-  display: grid;
-  background-color: blanchedalmond;
-  place-content: center;
+  background-image: url('/src/contexts/background2.webp');
   height: 100vh;
 }
 
 .container {
   height: 80vh;
-  width: 50vh;
+  width: 80vh;
   padding: 1rem;
+  padding-right: 3em;
+  padding-left: 0;
+  padding-top: 0;
 }
 
 .wrapper {
