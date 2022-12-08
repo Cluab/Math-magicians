@@ -1,0 +1,17 @@
+.CalculatorContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.CalculatorTitle {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  padding-left: 20px;
+  font-size: 40px;
+  color: rgb(148, 139, 131);
+  padding-top: 30px;
+  width: 500px;
+}

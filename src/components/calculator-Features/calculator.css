@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+}
+
+body {
+  background-image: url('/src/contexts/background2.webp');
+  height: 100vh;
+}
+
+.container {
+  height: 80vh;
+  width: 80vh;
+  padding: 1rem;
+  padding-right: 3em;
+  padding-left: 0;
+  padding-top: 0;
+}
+
+.wrapper {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 3px;
+}
+
+.screen {
+  grid-column: 1 / -1;
+  background-color: gray;
+  color: white;
+  padding-top: 45px;
+  padding-right: 10px;
+  font-size: 30px;
+  text-align: end;
+}
+
+.btn {
+  display: grid;
+  place-content: center;
+  background-color: rgb(218, 209, 200);
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+}
+
+.btn:hover {
+  background-color: aliceblue;
+}
+
+.orange {
+  background-color: rgb(231, 107, 24);
+}
+
+.zero {
+  grid-column: 1 / span 2;
+}
