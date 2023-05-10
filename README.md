@@ -62,7 +62,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🛠 Built With <a name="built-with"></a>
 
-- Major languages(HTMl, CSS & JAVASCRIPT)
+- Major languages(HTML, CSS & JAVASCRIPT)
 - Frameworks(Jest)
 - Technologies used(VS code, webpack, Git & Github)
 - Libraries (React-app)
