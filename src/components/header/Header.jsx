@@ -10,7 +10,7 @@ import QuotePage from '../quote-page/quote';
 import HomePage from '../home-page/home';
 import CalculatorPage from '../calculator-page/calc-page';
 
-// adding the header section which it responsible for switching between pages using react router dom
+// the header Component which it responsible for switching between pages using react router dom
 
 const Header = () => (
   <>
@@ -33,5 +33,5 @@ const Header = () => (
     </Router>
   </>
 );
-// eslint-disable-next-line import/prefer-default-export
+
 export default Header;
